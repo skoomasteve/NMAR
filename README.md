@@ -1,7 +1,8 @@
 # NMAR
 ---What is it?
 
-NMAR runs as a scheduled task; it checks communication with its default gateway at regular intervals and automatically restarts any network interfaces if communication with the default gateway cannot be established.  NMAR sends email alerts upon succesfull NIC repair and logs its own activity. NMAR is designed for windows machines running powershell 4 or newer.
+
+NMAR was created to reduce server downtime associated with stalled network interfaces.  NMAR runs as a scheduled task; it checks communication with its default gateway at regular intervals and automatically restarts any network interfaces if communication with the default gateway cannot be established.  NMAR sends email alerts upon succesfull NIC repair and logs its own activity. NMAR is designed for Windows machines running powershell 4 or newer.
 
 --How do I set it up?
 
@@ -17,3 +18,4 @@ For multiple instances it is recommended to use group policy to deploy the NMAR.
 --Considerations?
 
 If NMAR finds that it can't reach the default gateway it will disable all nic's and then enable all nic's present on the machine; this is important to remember if you have muliple nics- some of which you don't want activated.  The script can be modified to target specific scripts; however, keep in mind (if you're deploying NMAR with group policy) that the NMAR.ps1 file may be overwritten during the next GPupdate thus wiping out your targeted NIC paramaters (depending on how you've setup the GPO).  
+
