@@ -10,7 +10,7 @@ For a single instance:
 
 1. Create a folder in  C:\  named NMAR
 2. Move NMAR.ps1 to C:\NMAR
-3. Set the variables within the NMAR.ps1 script (only needed for email alerts and consolodated logging)
+3. Set the variables within the NMAR.ps1 script (needed for email alerts and consolodated logging)
 4. Open the windows task scheduler and import the NMAR.xml file; modify the default schedule if desired (the default schedule runs NMAR.ps1 every 10 minutes.) 
 
 For multiple instances it is recommended to use group policy to deploy the NMAR.xml file and the NMAR.ps1 file to all desired machines within any given OU(s)
