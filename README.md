@@ -2,7 +2,7 @@
 ---What is it?
 
 
-NMAR was created to reduce server downtime associated with stalled network interfaces.  NMAR runs as a scheduled task; it checks communication with its default gateway at regular intervals and automatically restarts any network interfaces if communication with the default gateway cannot be established.  NMAR sends email alerts upon succesfull NIC repair and logs its own activity. NMAR is designed for Windows machines running powershell 4 or newer.
+NMAR [NIC Monitor and Restarter] was created to reduce server downtime associated with stalled network interfaces.  NMAR runs as a scheduled task; it checks communication with its default gateway at regular intervals and automatically restarts any network interfaces if communication with the default gateway cannot be established.  NMAR sends email alerts upon succesfull NIC repair and logs its own activity. NMAR is designed for Windows machines running powershell 4 or newer.
 
 --How do I set it up?
 
