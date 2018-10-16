@@ -1,5 +1,5 @@
 ﻿#____________________________________________________________________________________________
-#      NMAR - NIC Monitor and Restarter (Legacy Version - Server 2008 compatible)
+#      NMAR - NIC Monitor and Restarter (Legacy Support - Server 2008 compatible)
 #____________________________________________________________________________________________
 #
 #                  Author: Steven Soward    --------   MIT License
@@ -11,7 +11,7 @@
 #Step 1 -- Define the $variables below if you need alerts and/or consolidated logging
 #    
 #
-#Step 2 -- Ensure NMAR.ps1 (this file) exists in C:\NMAR [or] edit the .xml to call a different .ps1 location
+#Step 2 -- Ensure this file is named NMAR.ps1 and exists in C:\NMAR [or] edit the .xml to call a different .ps1 location/filename
 #
 #
 #Step 3 -- import the NMAR.xml file into the Windows task scheduler
