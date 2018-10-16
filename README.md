@@ -24,5 +24,5 @@ While NMAR can help minimize downtime in the event of unexpected NIC stall; reso
 
 --Script failure?
 
-If the Get-NetRoute command, disable-netadapter, or -ExpandProperty Nexthop flag lines produce an error for you, this means your powershell version is out of date and does not support those newer featues. Use the NMAR-Legacy-Server2008 version, you will need to rename the NMAR-Legacy-Server2008.ps1 file to NMAR.ps1 and plce it in C:\NMAR.
+If the Get-NetRoute command, disable-netadapter, or -ExpandProperty Nexthop flag lines produce an error for you, this means your powershell version is out of date and does not support those newer featues. Use the NMAR-Legacy-Server2008 version, you will need to rename the NMAR-Legacy-Server2008.ps1 file to NMAR.ps1 and place it in C:\NMAR.
 
