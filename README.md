@@ -19,7 +19,7 @@ For multiple instances it is recommended to use Group Policy to deploy the NMAR.
 If NMAR finds that it can't reach the default gateway it will disable all network adapters and then enable all network adapters present on the machine; this is important to remember if you have multiple NICs, some of which you don't want activated. The script can be modified to target specific network adapters by replacing the wildcard * with the interface name - i.e. 'Local area connection' ; If you're deploying NMAR with group policy, keep in mind the NMAR.ps1 file on individual servers may be overwritten with the GPO version of the script during each GPupdate and will overwrite your targeted NIC parameters (depending on how you've setup the GPO).
 
 
-While NMAR can help minimize downtime in the event of unexpected NIC stall; resolving the root cause of the issue is always better. If you are seeing sporadic stalled NICs across a VMware environment this can be caused by version mismatch within ESXi hosts and between ESXi hosts and Vcenter. If you have version mismatching within your VMware environment, consider the benefits of harmonizing all of your version numbers.
+While NMAR can help minimize downtime in the event of unexpected NIC stall; resolving the root cause of the issue is always better. If you are seeing sporadic stalled NICs across a VMware environment this can be caused by version mismatch within ESXi hosts and Vcenter. If you have version mismatching within your VMware environment, consider the benefits of harmonizing all of your version numbers.
 
 
 ## Script failure?
